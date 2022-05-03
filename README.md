@@ -1,7 +1,7 @@
 # bgs_download
 Download data from BGS FTP, create event catalogue, and pre-process earthquake signal
 
-1. bgs_catalogue 
+1. bgs_catalogue
 Creating event catalogue from nordic files provided by BGS ftp 
 
 Input:
@@ -19,10 +19,10 @@ To run execute "run_create_catalogue.py", other important modules:
 a. read_from_nordic.py : code to read nordic file 
 b. search_station_info.py : code to read and take station information 
 c. store.py : code to store all information to dataframe
-
+_________________________________________________________________________
 2. bgs_download
 Downloading continuous seismic traces according to the event catalogue and store it to local computer
-
+_________________________________________________________________________
 3. bgs_processing
 Pre-processing earthquake signals 
 - cut signal into desirable segments
